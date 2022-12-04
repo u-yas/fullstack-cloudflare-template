@@ -1,0 +1,13 @@
+name = "fullstack-cloudflare-template"
+compatibility_date = "2022-12-04"
+
+# account_id = "your_account_id"
+
+# kv_namespaces = [
+#   { binding = "YOUR_KV_NAMESPACE", id = "your_id", preview_id = "your_preview_id"}
+# ]
+
+
+# [[r2_buckets]]
+# binding = 'MY_BUCKET' # <~ valid JavaScript variable name
+# bucket_name = '<YOUR_BUCKET_NAME>'

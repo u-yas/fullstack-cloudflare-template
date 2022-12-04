@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "devDependencies": {
+    "prettier": "2.8.0",
+    "wrangler": "2.5.0"
+  },
+  "scripts": {
+    "init": "yarn "
+  },
+  "workspaces": {
+    "packages": [
+      "pages",
+      "workers"
+    ],
+    "nohoist": [
+      "**/**"
+    ]
+  },
+  "engines": {
+    "node": "16.18.1",
+    "yarn": "1.22.19"
+  },
+  "packageManager": "yarn@1.22.19"
+}
